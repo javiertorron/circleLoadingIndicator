@@ -1,9 +1,8 @@
 //
 //  CircleLoaderView.m
-//  TokApp
 //
 //  Created by Javier Torrón Díaz on 30/8/18.
-//  Copyright © 2018 multiexpo. All rights reserved.
+//  Copyright © 2018. All rights reserved.
 //
 
 #import "CircleLoaderView.h"
