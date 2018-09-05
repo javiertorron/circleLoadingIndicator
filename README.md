@@ -1,13 +1,15 @@
 # circleLoadingIndicator
-##Indicador de carga con forma circular para iOS - Objective C
+*Indicador de carga con forma circular para iOS - Objective C*
 
-###Implementación cabecera:
+### Implementación cabecera:
 ```objective-c
 @property (nonatomic) CircleViewLoader *progressIndicatorView;
 ```
 
-###Implementación clase:
-####(La implementación puede realizarse en un IBAction o en un viewWillAppear)
+### Implementación clase:
+
+#### (La implementación puede realizarse en un IBAction o en un viewWillAppear)
+
 ```objective-c
 - (void)viewDidLoad {
     _progressIndicatorView = [[CircleLoaderView alloc] initWithLayer:CGRectZero withColor:[UIColor redColor] withRadius:40.0];
